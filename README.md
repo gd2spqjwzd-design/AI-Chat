@@ -50,10 +50,11 @@ git clone <项目仓库地址>
 cd ai-chat-react
 ```
 
-2. **安装依赖**
+2. **安装依赖和相关包**
 
 ```bash
 npm install
+npm install react-markdown remark-gfm rehype-highlight
 ```
 
 3. **启动开发服务器**
