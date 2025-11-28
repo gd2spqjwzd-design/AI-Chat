@@ -70,23 +70,33 @@ npm run dev
 ## 📂 项目结构
 
 ```
-/src
-  ├── components/       # UI 组件
-  │   ├── ChatApp.jsx     # 主应用容器
-  │   ├── ChatInterface.jsx # 核心聊天区域
-  │   ├── MessageBubble.jsx # 消息气泡
-  │   ├── MarkdownRenderer.jsx # Markdown 渲染器
-  │   ├── Sidebar.jsx     # 侧边栏会话列表
-  │   └── CardMessage.jsx # 卡片消息组件
-  ├── hooks/            # 自定义 Hooks
-  │   └── useChat.js      # 聊天核心逻辑
-  ├── utils/            # 工具函数
-  │   ├── fileUtils.js    # 文件处理
-  │   └── markdown.js     # Markdown 配置
-  ├── styles/           # 样式文件
-  │   └── App.css         # 全局样式
-  ├── App.jsx           # 根组件
-  └── main.jsx          # 入口文件
+ai-chat-react\
+├── README.md
+├── index.html
+├── mock.json
+├── package-lock.json
+├── package.json
+├── public\
+│   └── (空目录)
+├── src\
+│   ├── App.jsx
+│   ├── components\
+│   │   ├── CardMessage.jsx
+│   │   ├── ChatApp.jsx
+│   │   ├── ChatInterface.jsx
+│   │   ├── MarkdownRenderer.jsx
+│   │   ├── MessageBubble.jsx
+│   │   └── Sidebar.jsx
+│   ├── hooks\
+│   │   └── useChat.js
+│   ├── main.jsx
+│   ├── styles\
+│   │   └── App.css
+│   └── utils\
+│       ├── fileUtils.jsx
+│       └── markdown.js
+└── vite.config.js
+
 ```
 
 ##  使用指南
