@@ -24,7 +24,7 @@
 
 ```bash
 git clone <项目仓库地址>
-cd AI-Chat
+cd AI-Chat-main
 ```
 
 2. **安装依赖和相关包**
