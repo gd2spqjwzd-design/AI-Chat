@@ -1,4 +1,4 @@
-#  AI Chat React
+#  AI-Chat
 
 > 一个基于 React 构建的 AI 对话界面，支持 Markdown 渲染、多模态文件上传、会话管理与流式响应。
 
@@ -24,7 +24,7 @@
 
 ```bash
 git clone <项目仓库地址>
-cd ai-chat-react
+cd AI-Chat
 ```
 
 2. **安装依赖和相关包**
@@ -47,7 +47,7 @@ npm run dev
 ## 📂 项目结构
 
 ```
-ai-chat-react\
+AI-Chat\
 ├── README.md
 ├── index.html
 ├── mock.json
